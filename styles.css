@@ -7,6 +7,40 @@ body
     color:black;
     margin:0;
 }
+h1 h2
+{
+    font-size:23px;
+    color:black;
+}
+h3
+{
+    font-size:18px;
+    color:black;
+}
+p
+{
+    font-size:15px;
+    color:black;
+}
+a
+{
+    text-decoration:none;
+    color:black;
+}
+.colorgrey_star
+{
+    color:#0000002e;
+    font-size:13px;
+}
+.colorblue_star
+{
+    color:#0065FC;
+    font-size:13px;
+}
+figure
+{
+    margin:0;
+}
 
 /* Header */
 
@@ -55,4 +89,144 @@ header span
     color:#0065FC;
     font-weight:bold;
     padding:0 25px 0 25px;
+}
+/* Main */
+
+main
+{
+    padding:0 0.5rem;
+}
+
+/* Main - Search */
+
+main section div h1
+{
+    margin-bottom:0.5rem;
+}
+.search
+{
+    display:flex;
+    align-items:center;
+    height:50px;
+    margin:1.5rem 0 2rem 0;
+}
+.search span
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    width:50px;
+    background-color:#F2F2F2;
+    border-radius:10px 0 0 10px;
+}
+.search input
+{
+    height:50px;
+    width:220px;
+    padding-left:10px;
+    font-size:18px;
+    border:none;
+    border-bottom:#F2F2F2 2px solid;
+    border-top:#F2F2F2 2px solid;
+}
+.search input::placeholder
+{
+    color:black;
+    font-weight:bold;
+}
+.search div
+{
+    display:flex;
+    align-items:center;
+    height:50px;
+    padding:0 1.5rem;
+    background-color:#0065FC;
+    border:none;
+    border-radius:0 10px 10px 0;
+}
+.search div:hover
+{
+    background-color:#DEEBFF;
+    cursor:pointer;
+    color:black;
+}
+.search div p
+{
+    font-size:20px;
+    margin:0;
+    font-weight:bold;
+    color:white;
+}
+.search div p:hover
+{
+    color:black;
+}
+.search div i
+{
+    color:white;
+    display:none;
+}
+.search div i:hover
+{
+    color:black;
+}
+.info
+{
+    display:flex;
+    align-items:center;
+    margin:2rem 0 2rem 0;
+    font-size:14px;
+}
+.info i
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:30px;
+    width:30px;
+    margin-right:10px;
+    color:#0065FC;
+    border:2px solid #F2F2F2;
+    border-radius:25px;  
+}
+.filter
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.filter h3
+{
+    margin-right:30px;
+}
+.filter_texticon
+{
+    display:flex;
+    align-items:center;
+    height:50px;
+    margin-right:30px;
+    border:2px solid #F2F2F2;
+    border-radius:25px;
+    cursor:pointer;
+}
+.filter_texticon i
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:54px;
+    width:54px;
+    border-radius:25px;
+    margin-left:-2px;
+    color:#0065FC;
+    background-color:#DEEBFF;
+}
+.filter_texticon h3
+{
+    padding:0 10px 0 10px;
+}
+.filter_texticon i:hover
+{
+    background-color:#0065FC;
+    color:white;
 }
