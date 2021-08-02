@@ -230,3 +230,112 @@ main section div h1
     background-color:#0065FC;
     color:white;
 }
+
+/* Main - Hosting */
+
+.hosting
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.hosting1
+{
+    flex:2;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:20px;
+    height:670px;
+    margin-right:40px;
+    padding:20px;
+    border-radius:10px;
+    background-color:#F2F2F2;
+}
+.hosting1 h2
+{
+    grid-column: 1/-1;
+}
+.hosting1_card
+{
+    height:auto;
+    padding:3px;
+    border-radius:1.25rem;
+    box-shadow:0 0 16px #0000002e;
+    background-color:white;
+}
+.hosting1_img
+{
+    height:120px;
+    width:100%;
+    border-radius:1.25rem 1.25rem 0 0;
+    object-fit:cover;
+}
+.hosting1_detailarticle
+{
+    margin-left:5px;
+    text-decoration:none;
+}
+.hosting1_detailarticle h3
+{
+    margin:1rem 0 1rem 0;
+}
+.hosting1_detailarticle p
+{
+    margin:0 0 1rem 0;
+}
+.hosting1_star
+{
+    display:flex;
+    margin:8px 0 8px 0;
+}
+.hosting2
+{
+    flex:1;
+    height:670px;
+    padding:20px;
+    border-radius:10px;
+    background-color:#F2F2F2;
+}
+.hosting2_head
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 0 24px 0;
+}
+.hosting2_bloc
+{
+    display:flex;
+    flex-direction:column;
+    row-gap:30px;
+}
+.hosting2_card
+{
+    display:flex;
+    background-color:white;
+    height:170px;
+    border-radius:1.25rem;
+    box-shadow:0 0 16px #0000002e;
+}
+.hosting2_img
+{
+    display:flex;
+    align-items:center;
+    width:35%;
+    margin-right:15px;
+    padding:3px;
+    border-radius:1.25rem 0 0 1.25rem;
+    object-fit:cover;
+}
+.hosting2_detailarticle
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:60%;
+    margin-bottom:10px;
+}
+.hosting2_star
+{
+    display:flex;
+}
