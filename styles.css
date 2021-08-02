@@ -405,3 +405,26 @@ main section div h1
 {
     margin:25px 0 25px 10px;
 }
+
+/* Footer */
+
+footer
+{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 70px 20px 20px;
+    background-color:#F2F2F2;
+}
+footer div
+{
+    width:30%;
+}
+footer li
+{
+    line-height:2;
+    list-style:none;
+}
+footer div ul
+{
+    padding-left:0;
+}
