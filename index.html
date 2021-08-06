@@ -3,8 +3,9 @@
     <!-- Initialisation -->
     <head>
         <meta charset="utf-8" />
-        <script src="https://kit.fontawesome.com/89bca5afd6.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/89bca5afd6.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reservia</title>
     </head>
     <body>
@@ -12,20 +13,20 @@
         <header>
             <img src="images/logo/Reservia.png" alt="Logo Reservia"/>
             <ul>
-                <li class="lien1"><a href="#" class="lien11">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
+                <li class="lien1"><a href="#">Hébergements</a></li>
+                <li class="lien2"><a href="#">Activités</a></li>
             </ul>
             <span><a href="#" class="lien3">S'inscrire</a></span>
         </header>
         <!-- Main -->
         <main>
             <!-- Main - Search -->
-            <section>    
+            <section class="search">    
                 <div>
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
-                <div class="search">
+                <div class="searchbar">
                     <span><i class="fas fa-map-marker-alt"></i></span>
                     <input type="search" placeholder="Marseille, France">
                     <div>
@@ -68,11 +69,11 @@
                                 <h3>Auberge la Cannebière</h3>
                                 <p>Nuit à partir de <strong>25€</strong></p>
                                 <div class="hosting1_star">
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorgrey_star"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_grey"></i>
                                 </div>
                             </div>
                         </a>
@@ -84,11 +85,11 @@
                                 <h3>Hôtel du port</h3>
                                 <p>Nuit à partir de <strong>52€</strong></p>
                                 <div class="hosting1_star">
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
                                 </div>
                             </div>
                         </a>
@@ -100,11 +101,11 @@
                                 <h3>Hôtel les mouettes</h3>
                                 <p>Nuit à partir de <strong>76€</strong></p>
                                 <div class="hosting1_star">
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorgrey_star"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_grey"></i>
                                 </div>
                             </div>
                         </a>
@@ -116,11 +117,11 @@
                                 <h3>Hôtel de la mer</h3>
                                 <p>Nuit à partir de <strong>46€</strong></p>
                                 <div class="hosting1_star">
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorgrey_star"></i>
-                                    <i class="fas fa-star colorgrey_star"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_grey"></i>
+                                    <i class="fas fa-star starcolor_grey"></i>
                                 </div>
                             </div>
                         </a>
@@ -132,11 +133,11 @@
                                 <h3>Auberge le Panier</h3>
                                 <p>Nuit à partir de <strong>23€</strong></p>
                                 <div class="hosting1_star">
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorgrey_star"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_grey"></i>
                                 </div>
                             </div>
                         </a>
@@ -147,17 +148,17 @@
                             <div class="hosting1_detailarticle">    
                                 <h3>Hôtel chez Amina</h3>
                                 <p>Nuit à partir de <strong>96€</strong></p>
-                                <div>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
-                                    <i class="fas fa-star colorblue_star"></i>
+                                <div class="hosting1_star">
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
+                                    <i class="fas fa-star starcolor_blue"></i>
                                 </div>
                             </div>
                         </a>
                     </article>
-                    <a href="#"><h3>Afficher plus</h3></a>               
+                    <a href="#"><h4>Afficher plus</h4></a>               
                 </div>
                 <div class="hosting2">
                     <div class="hosting2_head">
@@ -174,11 +175,11 @@
                                         <p>Nuit à partir de <strong>128€</strong></p>
                                     </div>
                                     <div class="hosting2_star">
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
                                     </div>
                                 </div>
                             </a>
@@ -192,11 +193,11 @@
                                         <p>Nuit à partir de <strong>71€</strong></p>
                                     </div>   
                                     <div class="hosting2_star">
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorgrey_star"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_grey"></i>
                                     </div>
                                 </div>
                             </a>
@@ -210,11 +211,11 @@
                                         <p>Nuit à partir de <strong>68€</strong></p>
                                     </div>
                                     <div class="hosting2_star">
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorblue_star"></i>
-                                        <i class="fas fa-star colorgrey_star"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_blue"></i>
+                                        <i class="fas fa-star starcolor_grey"></i>
                                     </div>
                                 </div>
                             </a>
