@@ -110,6 +110,10 @@ header li a
     border-top:solid 2px #0065FC;
     margin-top:-2px;
 }
+.lien2 a
+{
+    color:black;
+}
 @media screen and (max-width:600px)
 {
     .lien1
@@ -812,7 +816,7 @@ main
 }
 .activity_bloc h3
 {
-    margin:25px 0 25px 10px;
+    margin:20px 0 25px 10px;
 }
 @media screen and (max-width:600px)
 {
